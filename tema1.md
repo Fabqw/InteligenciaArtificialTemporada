@@ -17,11 +17,69 @@ f = la funcion en el medio,es el algoritmo de la IA fucion vacia o con valores a
 
 | Cliente | x1 Ingreso Mensual (USD) | x2 Puntaje de Crédito | x3 Edad | y Pagó el Crédito |
 | :--- | :--- | :--- | :--- | :--- |
-| **Juan** | 4000 | 720 | 35 | 1 |
-| **María** | 8500 | 800 | 42 | 1 |
-| **Pedro** | 3500 | 450 | 22 | 0 |
-| **Ana** | 12000 | 520 | 28 | 0 |
+| **Juan** | 4000 | 85 | 35 | 1 |
+| **María** | 8500 | 90 | 42 | 1 |
+| **Pedro** | 3500 | 30 | 22 | 0 |
+| **Ana** | 12000 | 40 | 28 | 0 |
+| **Carlos** | 3000 | 88 | 31 | ? |
 
 > formula
 
-x2 > x1
+x2 = 88
+f(x) = % alta 0.94 = 94%
+
+Calidad de datos
+
+80% de un proyectos de IA
+no es el codigo del algoritmo
+si no es limnpiar y asegurar que la tabla no tenga errores
+
+Una empresa de transporte urbano tipo una app de taxis, como yango, o una red de buses moderna, los contrata para diseñar un modelo predictivo que solucione uno de los siguientes problemas de su negocio
+    a) predecir el tiempo de espera (min) que le tomara a un pasajero tomar el transporte en hora pico
+    b) predecir si un conductor o empleado va a renunciar a la empresa el proximo mes
+
+#### Problema a) Predicción de Tiempo de Espera en Hora Pico (Distancia A-B, Tráfico, Día, Demanda y Conductores)
+
+| x1 Distancia A-B (km) | x2 Tráfico (1-5) | x3 Día Semana | x4 Demanda Pasajeros | x5 Conductores Disponibles | y Tiempo Espera (min) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 3.2 | 3 | Lunes | 450 | 25 | 12 |
+| 1.1 | 4 | Lunes | 480 | 24 | 18 |
+| 7.5 | 2 | Viernes | 520 | 20 | 22 |
+| 12.0 | 5 | Viernes | 610 | 18 | 35 |
+| 0.8 | 2 | Miércoles | 200 | 30 | 5 |
+
+**Variables de entrada (x):** distancia parada A a B, nivel de tráfico, día de la semana, demanda de pasajeros, conductores disponibles
+**Variable de salida (y):** tiempo espera en minutos
+
+Nota: en la Predicción de Tiempo de Espera se considera la distancia exacta del punto A al punto B (x1), el nivel de tráfico (x2) que afecta directamente la velocidad de desplazamiento, el día de la semana (x3) que determina patrones de demanda, la demanda actual de pasajeros (x4) y la disponibilidad de conductores (x5). Estos factores combinados permiten estimar el tiempo de asignación y espera del usuario.
+
+#### Problema b) Predicción de Renuncia de Conductor
+
+| Conductor | x1 Meses en Empresa | x2 Ingresos Promedio USD | x3 Evaluación (1-5) | x4 Horas/Semana | y Renunció |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Carlos | 6 | 1200 | 4.2 | 48 | 0 |
+| Miguel | 3 | 800 | 2.1 | 35 | 1 |
+| Ana | 12 | 1500 | 4.8 | 50 | 0 |
+| Roberto | 2 | 700 | 1.9 | 20 | 1 |
+| Laura | 8 | 1300 | 4.5 | 45 | ? |
+
+**Variables de entrada (x):** antigüedad, salario, satisfacción, disponibilidad
+**Variable de salida (y):** renuncia sí/no (1/0)
+**Calidad de datos importante:** encuestas, historial de faltas, rotación histórica
+
+Justificación de cada variable:
+
+- Problema a) Predicción de Tiempo de Espera en Hora Pico:
+    - x1 Demanda Pasajeros: refleja la presión sobre el sistema; mayor demanda suele aumentar tiempos de espera.
+    - x2 Conductores Disponibles: indica capacidad de oferta; menos conductores incrementan la espera.
+    - x3 Lluvia (0/1): el clima afecta tráfico y disponibilidad; lluvia suele aumentar tiempos.
+    - x4 Día Semana: patrones de demanda varían según día (pico entre semana vs fin de semana).
+    - x5 Distancia (km): viajes más largos pueden reducir la disponibilidad instantánea de conductores y cambiar la asignación, afectando el tiempo de espera.
+    - y Tiempo Espera (min): target que queremos predecir.
+
+- Problema b) Predicción de Renuncia de Conductor:
+    - x1 Meses en Empresa: antigüedad correlaciona con probabilidad de rotación.
+    - x2 Ingresos Promedio USD: salario influye directamente en la satisfacción y decisión de quedarse.
+    - x3 Evaluación (1-5): mide desempeño y posiblemente reconocimiento; baja evaluación puede asociarse a mayor estrés o insatisfacción.
+    - x4 Horas/Semana: carga laboral excesiva puede aumentar probabilidad de renuncia.
+    - y Renunció: variable objetivo binaria (1: renunció, 0: no).
