@@ -15,13 +15,12 @@ f = la funcion en el medio,es el algoritmo de la IA fucion vacia o con valores a
 
 #### Sistemade aprobacion de creditos bancarios
 
-|cliente | x1 ingreso mensual | x2 puntaje de credito | x3 edad | y ¿pago el credito? 1 = si, 0 = no |
-|--------|--------------------|---------------------------------|------------------------------------|
-|Juan    | 4000               | 85                    | 35      | 1 (buen cliente)                   |
-|Maria   | 8500               | 90                    | 42      | 1 (buen cliente)                   |
-|Pedro   | 3500               | 30                    | 22      | 0 (cayo en mora)                   |
-|Ana     | 12000              | 40                    | 28      | 0 (cayo en mora)                   |
-|--------|--------------------|---------------------------------|------------------------------------|
+| Cliente | x1 Ingreso Mensual (USD) | x2 Puntaje de Crédito | x3 Edad | y Pagó el Crédito |
+| :--- | :--- | :--- | :--- | :--- |
+| **Juan** | 4000 | 720 | 35 | 1 |
+| **María** | 8500 | 800 | 42 | 1 |
+| **Pedro** | 3500 | 450 | 22 | 0 |
+| **Ana** | 12000 | 520 | 28 | 0 |
 
 > formula
 
