@@ -15,7 +15,13 @@ Contenido
 9. Apicaciones con ia
 
 > Cronograma
-lunes 13 Primer parcial
-Miercoles 22 Segundo parcial
-Miercoles 29 Examen final
-Jueves 30 Entrega de notas
+- lunes 13 Primer parcial
+- Miercoles 29 Examen final
+- Jueves 30 Entrega de notas
+
+> Ponderacion
+- 4 Practicas -> 1ra,2da,3ra 5 puntos y 4ta 10 puntos -> 25 puntos
+- 2 Examenes -> Cada uno 15 puntos -> 30 puntos
+- Proyecto final -> 20 puntos
+- Asistencia -> 15 puntos
+- Participacion -> 10 puntos
