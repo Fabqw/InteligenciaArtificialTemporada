@@ -70,16 +70,20 @@ Nota: en la Predicción de Tiempo de Espera se considera la distancia exacta del
 Justificación de cada variable:
 
 - Problema a) Predicción de Tiempo de Espera en Hora Pico:
-    - x1 Demanda Pasajeros: refleja la presión sobre el sistema; mayor demanda suele aumentar tiempos de espera.
-    - x2 Conductores Disponibles: indica capacidad de oferta; menos conductores incrementan la espera.
-    - x3 Lluvia (0/1): el clima afecta tráfico y disponibilidad; lluvia suele aumentar tiempos.
-    - x4 Día Semana: patrones de demanda varían según día (pico entre semana vs fin de semana).
-    - x5 Distancia (km): viajes más largos pueden reducir la disponibilidad instantánea de conductores y cambiar la asignación, afectando el tiempo de espera.
-    - y Tiempo Espera (min): target que queremos predecir.
+    - x1 Distancia A-B (km): la distancia entre origen y destino influye en la asignación y el tiempo total de atención.
+    - Ruido de datos / Valores basura: puede introducirse en cualquier variable pero suele detectarse frecuentemente en x1 (Distancia A-B). La distancia puede variar por fallas técnicas (GPS, registro) o error humano al ingresar datos, generando outliers o valores inconsistentes que afectan el modelo.
+    - x2 Tráfico (1-5): a mayor tráfico, más lento es el desplazamiento y mayor suele ser el tiempo de espera.
+    - x3 Día Semana: el comportamiento de la demanda cambia según el día; por ejemplo, viernes suele tener más congestión que miércoles.
+    - x4 Demanda Pasajeros: refleja cuántos usuarios están solicitando servicio; mayor demanda normalmente aumenta la espera.
+    - x5 Conductores Disponibles: indica la capacidad de oferta; menos conductores disponibles incrementan el tiempo de espera.
+    - y Tiempo Espera (min): variable objetivo que queremos predecir.
+
+Ejemplo extra: en un caso con 12.0 km, tráfico 5, viernes, 610 pasajeros de demanda y 18 conductores disponibles, el tiempo de espera esperado será mayor que en un caso con 0.8 km, tráfico 2, miércoles, 200 pasajeros y 30 conductores.
 
 - Problema b) Predicción de Renuncia de Conductor:
     - x1 Meses en Empresa: antigüedad correlaciona con probabilidad de rotación.
     - x2 Ingresos Promedio USD: salario influye directamente en la satisfacción y decisión de quedarse.
+    - Ruido de datos / Valores basura: puede presentarse en una variable de decisión como x2 (Ingresos Promedio USD), por errores de registro o datos mal digitados, y afectar la predicción.
     - x3 Evaluación (1-5): mide desempeño y posiblemente reconocimiento; baja evaluación puede asociarse a mayor estrés o insatisfacción.
     - x4 Horas/Semana: carga laboral excesiva puede aumentar probabilidad de renuncia.
     - y Renunció: variable objetivo binaria (1: renunció, 0: no).
