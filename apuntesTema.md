@@ -238,4 +238,38 @@ Tipos de busqueda
 
     - Tecnicas de busqueda
         - busqueda no informada: BFS, DFS, consto uniforme, bidireccional
-        - busqueda informada: Greedy,
+        - busqueda informada: Greedy, A*
+
+Busqueda en amplitud (BFS), explora primero todos los nodos del mismo nivel - Funcionamiento: Utiliza COLA (FIFO) => recorrido {a,b,c,d,e,f} - Aplicaciones: Redes sociales, laberintos, GPS
+
+Busqueda profunda, explora una rama completa antes de regresar - Funcionamiento: Utiliza PILA(stack) => recorrido {a,b,d,e,c,f} - Aplicaciones
+
+Busqueda de consto uniforme, siempre expande el nodo cuyo coste acumulado es menor
+
+    - Funcionamiento: Se mantiene una cola de prioridad ordenada por coste acumulado (no por profundidad).
+        - Inicialmente la raíz tiene coste 0 y está en la cola.
+        - En cada paso se extrae el nodo con menor coste total, y se expanden sus sucesores.
+        - Si un sucesor ya aparece en la cola con un coste mayor, se actualiza su coste (se "relaja").
+        - El algoritmo termina cuando se extrae un nodo objetivo; así garantiza encontrar el camino de menor coste.
+        - Uso típico: rutas con distintos costes (distancia, tiempo, precio) cuando queremos minimizar coste
+
+Busqueda bidirecional, inicio objetivo
+
+    - Funcionnamiento: hasta que ambas busquedas se encuentren
+    - reduce el timepo de la busqueda
+
+Busqueda voraz, siempre escoge la opcion que parace mejor en ese momento
+
+Algoritmo A, este algoritmo es el mas famoso en IA clasica, F(n) = g(n) + h(n)
+
+> g(n) = costo acumulado ini - fin o costo del recorrido
+
+> h(n) = estimacion de la meta
+
+> F(n) = costo total estimado
+
+### Resumen
+
+    - BFS: busca el camino mas corto en numero
+    - DFS: explora una rama completa
+    - A* : busca la mejor ruta , utiliza  una estimacion
