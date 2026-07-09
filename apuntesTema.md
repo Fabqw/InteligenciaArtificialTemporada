@@ -153,3 +153,9 @@ Ejemplo extra: en un caso con 12.0 km, tráfico 5, viernes, 610 pasajeros de dem
     - Motor de inferencia: 4>3 => rechazado
     - memoria: usuario: juan; resultado: rechazado
 
+##### Ejericios planteados
+
+    - cajero automatio si este puede realizaer depositos bancarios en otras monedas
+    - semaforo inteligente si se puede determinar que los animales crucen la calle
+    - Sistema de asistencia y verificacion de notas de un estudiante
+    - robot de limpieza si podria limpiar cada determinada casa
