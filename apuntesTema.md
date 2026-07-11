@@ -242,7 +242,7 @@ Tipos de busqueda
 
 Busqueda en amplitud (BFS), explora primero todos los nodos del mismo nivel - Funcionamiento: Utiliza COLA (FIFO) => recorrido {a,b,c,d,e,f} - Aplicaciones: Redes sociales, laberintos, GPS
 
-Busqueda profunda, explora una rama completa antes de regresar - Funcionamiento: Utiliza PILA(stack) => recorrido {a,b,d,e,c,f} - Aplicaciones
+Busqueda profunda (DFS), explora una rama completa antes de regresar - Funcionamiento: Utiliza PILA(stack) => recorrido {a,b,d,e,c,f} - Aplicaciones
 
 Busqueda de consto uniforme, siempre expande el nodo cuyo coste acumulado es menor
 
@@ -273,3 +273,14 @@ Algoritmo A, este algoritmo es el mas famoso en IA clasica, F(n) = g(n) + h(n)
     - BFS: busca el camino mas corto en numero
     - DFS: explora una rama completa
     - A* : busca la mejor ruta , utiliza  una estimacion
+
+## Clase 10/jul
+
+- Estados
+- Acciones: son simplemente decisiones que podemos tomar en cualquier estado, es posible que algunas acciones solo sean validas en ciertos estados y no en otros
+- Modelo de transicion: describe el estado al que llegamos despues de realizar alguna accion disponible en otro estado
+- Espacio de estados: es el conjunto de todos los estados que podemos obtener desde el estado inicial, a travez de cualquier secuencia de acciones
+- Grafos
+
+- Prueba objtivo: detemina si un estado dado es un estado objetivo
+- Cosoto ruta: coste numerico asociado a una trayectoria determinada
