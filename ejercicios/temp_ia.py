@@ -15,4 +15,16 @@ df['Televisor'] = pd.to_numeric(df['Televisor'].astype(str).str.replace('<'), er
 # Calcualr las correlaciones matematicas
 correlation = df['Mundial'].corr(df['Televisor'])
 print("==============================================================")
-print(f'Correlación entre Mundial y Televisor: {correlation}')
+print(f"Correlación entre Mundial y Televisor: {correlation:.2f}")
+print("==============================================================")
+
+# graficar ambas tendecias
+plt.figure(figsize=(10, 6))
+plt.plot(df['Semana'], df['Mundial'], label='Mundial', marker='o')
+plt.plot(df['Semana'], df['Televisor'], label='Televisor', marker='o')
+plt.title('Tendencia de Mundial y Televisor a lo largo de las Semanas')
+plt.xlabel('Semana')
+plt.ylabel('Cantidad')
+plt.legend()
+plt.grid()
+plt.show()
