@@ -20,11 +20,18 @@ print("==============================================================")
 
 # graficar ambas tendecias
 plt.figure(figsize=(10, 6))
-plt.plot(df['Semana'], df['Mundial'], label='Mundial', marker='o')
-plt.plot(df['Semana'], df['Televisor'], label='Televisor', marker='o')
+plt.plot(df['Semana'], df['Mundial'], label='Interes Mundial', color='blue', marker='o')
+plt.plot(df['Semana'], df['Televisor'], label='Interes Televisor', color='red', marker='o')
 plt.title('Tendencia de Mundial y Televisor a lo largo de las Semanas')
 plt.xlabel('Semana')
 plt.ylabel('Cantidad')
+
+
+
+# 
+plt.xticks(df['Semana'][::26], rotation=45)
+plt.title('Impacto del mudial en la busqueda de Televisores en los ultimos 5 años')
 plt.legend()
-plt.grid()
+plt.tight_layout()
+plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 plt.show()
