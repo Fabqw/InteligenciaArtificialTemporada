@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Leer los datos saltando las dos primeras lineras  
-df = pd.read_csv('data1.csv', skiprows=2)
+df = pd.read_csv('data2.csv', skiprows=2)
 
 # Renombras columnas para facilitar el codifo
 df.columns = ['Semana', 'Mundial', 'Televisor']
@@ -20,18 +20,26 @@ print("==============================================================")
 
 # graficar ambas tendecias
 plt.figure(figsize=(10, 6))
-plt.plot(df['Semana'], df['Mundial'], label='Interes Mundial', color='blue', marker='o')
-plt.plot(df['Semana'], df['Televisor'], label='Interes Televisor', color='red', marker='o')
+plt.plot(df['Semana'], df['Mundial'], label='Interes Mundial', color='blue')
+plt.plot(df['Semana'], df['Televisor'], label='Interes Televisor', color='red')
 plt.title('Tendencia de Mundial y Televisor a lo largo de las Semanas')
 plt.xlabel('Semana')
 plt.ylabel('Cantidad')
-
-
-
-# 
-plt.xticks(df['Semana'][::26], rotation=45)
-plt.title('Impacto del mudial en la busqueda de Televisores en los ultimos 5 años')
 plt.legend()
-plt.tight_layout()
-plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+plt.grid()
 plt.show()
+
+
+# Preparar los datos para el modelo de regresión lineal
+x = df['Mundial']
+y = df['Televisor']
+
+# inicializar y entrenar el modelo de regresión lineal
+modelo_m1 = LinearRegression()
+modelo_m1.fit(x, y)
+
+# hacer una predficcion interactiva
+# supongamos que por la final del mundial la busqueda de "munidial" llegara a un pico de 95%
+nivel_mundial = [[95]]
+prediccion_televisores = modelo_m1.predict(nivel_mundial)
+print(f"Predicción de Interés en Televisor para un nivel de Interés en Mundial del 95%: {prediccion_televisores[0]:.2f}")
