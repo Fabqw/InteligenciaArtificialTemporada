@@ -31,7 +31,7 @@ plt.show()
 
 
 # Preparar los datos para el modelo de regresión lineal
-x = df['Mundial']
+x = df[['Mundial']]
 y = df['Televisor']
 
 # inicializar y entrenar el modelo de regresión lineal
@@ -42,4 +42,4 @@ modelo_m1.fit(x, y)
 # supongamos que por la final del mundial la busqueda de "munidial" llegara a un pico de 95%
 nivel_mundial = [[95]]
 prediccion_televisores = modelo_m1.predict(nivel_mundial)
-print(f"Predicción de Interés en Televisor para un nivel de Interés en Mundial del 95%: {prediccion_televisores[0]:.2f}")
+print(f"Si el interes por el mundial es del {nivel_mundial[0][0]:.2f}%, se espera un interes del {prediccion_televisores[0]:.2f}% en los televisores.")
