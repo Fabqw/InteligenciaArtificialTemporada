@@ -284,3 +284,13 @@ Algoritmo A, este algoritmo es el mas famoso en IA clasica, F(n) = g(n) + h(n)
 
 - Prueba objtivo: detemina si un estado dado es un estado objetivo
 - Cosoto ruta: coste numerico asociado a una trayectoria determinada
+
+---
+
+atributo -> descripcion especifica de una instancia
+etiqueta -> objetivo que se intenta clasificar o predecir
+algoritmo -> serie de pasos o reglas diseñadoas para realizar tareas especificas clasificacion o regresion
+hyperparametros -> son valoers que ajustamos para entrenar un modelo estos modifica su rendimienro o capacidad en general, se ajutan antes de entrenar el modelo
+modelo -> resultado de entrenar un algoritmo
+sobreajuste -> overfitting -> excelente rendimiento
+subajuste -> underfitting -> el modelo no captura adecuadamente los patrones -> falta de datos

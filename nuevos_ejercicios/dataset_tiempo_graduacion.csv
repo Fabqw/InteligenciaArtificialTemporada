@@ -1,0 +1,153 @@
+﻿ID,Edad,Sexo,Carrera,Trabaja,Horas_Estudio_Dia,Asistencia,Promedio,Materias_Reprobadas,Tiempo_Graduacion
+1,24,Masculino,Informática,No,4.0,83.0,69.0,2.0,6.7
+2,25,Masculino,Ingeniería de Sistemas,Sí,5.0,75.0,93.0,1.0,4.9
+3,20,Masculino,Civil,Sí,7.0,65.0,65.0,7.0,9.0
+4,22,Femenino,Informática,Sí,4.0,94.0,78.0,2.0,6.3
+5,23,Masculino,Ingeniería de Sistemas,Sí,5.0,56.0,78.0,3.0,7.3
+6,23,Masculino,Civil,Sí,2.0,75.0,87.0,3.0,6.1
+7,27,Femenino,Ingeniería de Sistemas,No,6.0,98.0,79.0,0.0,5.0
+8,28,Femenino,Informática,Sí,3.0,96.0,82.0,3.0,5.6
+9,20,Femenino,Electrónica,No,,57.0,91.0,2.0,5.4
+10,24,Masculino,Ingeniería de Sistemas,No,5.0,63.0,93.0,1.0,5.0
+11,21,Masculino,Informática,No,1.0,68.0,63.0,1.0,7.5
+12,22,Masculino,Electrónica,No,2.0,74.0,82.0,6.0,6.6
+13,29,Femenino,Informática,No,7.0,98.0,62.0,6.0,8.1
+14,20,Masculino,Industrial,Sí,6.0,71.0,90.0,1.0,4.9
+15,25,Femenino,Civil,No,4.0,56.0,60.0,5.0,8.4
+16,27,Masculino,Informática,Sí,4.0,83.0,72.0,1.0,5.9
+17,29,Masculino,Electrónica,Sí,2.0,64.0,90.0,5.0,7.5
+18,25,Masculino,Informática,No,6.0,77.0,94.0,4.0,5.4
+19,19,Femenino,Industrial,No,7.0,78.0,,0.0,4.0
+20,29,Masculino,Electrónica,No,4.0,99.0,95.0,4.0,5.4
+21,45,Masculino,Electrónica,Sí,1.0,61.0,63.0,7.0,9.0
+22,18,Masculino,Civil,Sí,4.0,62.0,78.0,6.0,8.4
+23,28,Masculino,Industrial,No,3.0,71.0,62.0,2.0,6.7
+24,20,Femenino,Civil,Sí,1.0,59.0,96.0,6.0,7.9
+25,27,Femenino,Informática,Sí,1.0,82.0,61.0,0.0,7.1
+26,25,Masculino,Electrónica,No,4.0,88.0,87.0,7.0,6.4
+27,24,Femenino,Informática,Sí,7.0,78.0,91.0,2.0,5.3
+28,29,Femenino,Ingeniería de Sistemas,No,8.0,76.0,81.0,2.0,4.7
+29,18,Femenino,Industrial,Sí,3.0,91.0,68.0,2.0,7.3
+30,18,Femenino,Ingeniería de Sistemas,Sí,5.0,80.0,68.0,6.0,8.7
+31,28,Femenino,Civil,No,1.0,69.0,69.0,1.0,7.5
+32,27,Femenino,Electrónica,Sí,4.0,67.0,86.0,6.0,7.4
+33,18,Masculino,Civil,No,4.0,86.0,58.0,5.0,7.8
+34,22,Masculino,Informática,Sí,7.0,93.0,99.0,6.0,6.7
+35,28,Masculino,Ingeniería de Sistemas,No,5.0,90.0,67.0,7.0,8.4
+36,24,Masculino,Industrial,No,3.0,76.0,82.0,1.0,4.3
+37,27,Femenino,Civil,No,5.0,60.0,82.0,3.0,5.8
+38,29,Masculino,Informática,,4.0,74.0,84.0,5.0,5.8
+39,28,Femenino,Informática,No,8.0,82.0,79.0,6.0,7.1
+40,18,Femenino,Ingeniería de Sistemas,No,1.0,81.0,67.0,0.0,6.5
+41,20,Masculino,Electrónica,Sí,7.0,60.0,62.0,2.0,8.0
+42,26,Masculino,Electrónica,Sí,6.0,91.0,87.0,2.0,5.3
+43,27,Masculino,Electrónica,Sí,4.0,78.0,69.0,2.0,7.3
+44,23,Masculino,Civil,No,8.0,86.0,78.0,0.0,5.0
+45,21,Femenino,Informática,Sí,1.0,66.0,93.0,1.0,6.1
+46,20,Femenino,Electrónica,Sí,18.0,91.0,71.0,2.0,6.8
+47,18,Masculino,Ingeniería de Sistemas,Sí,2.0,56.0,82.0,5.0,7.5
+48,24,Masculino,Industrial,Sí,5.0,86.0,87.0,0.0,4.6
+49,20,Masculino,Ingeniería de Sistemas,No,6.0,56.0,98.0,1.0,5.0
+50,23,Masculino,Electrónica,No,8.0,58.0,65.0,7.0,9.0
+51,28,Masculino,Civil,Sí,1.0,92.0,78.0,4.0,7.5
+52,21,Femenino,Industrial,No,2.0,60.0,76.0,2.0,6.9
+53,18,Femenino,Civil,No,1.0,60.0,70.0,4.0,7.6
+54,20,Masculino,Ingeniería de Sistemas,Sí,4.0,90.0,73.0,1.0,5.9
+55,20,Masculino,Electrónica,Sí,7.0,73.0,74.0,7.0,8.0
+56,24,Masculino,Civil,Sí,4.0,95.0,87.0,7.0,7.0
+57,24,Masculino,Informática,Sí,2.0,94.0,55.0,2.0,7.8
+58,29,Masculino,Informática,Sí,1.0,79.0,77.0,6.0,8.2
+59,27,Femenino,Informática,Sí,3.0,61.0,70.0,1.0,6.6
+60,26,Femenino,Industrial,Sí,4.0,56.0,55.0,7.0,9.0
+61,29,Masculino,Civil,No,5.0,,86.0,2.0,4.7
+62,24,Masculino,Industrial,No,1.0,95.0,89.0,2.0,5.2
+63,20,Masculino,Informática,Sí,4.0,78.0,87.0,7.0,7.0
+64,21,Femenino,Electrónica,No,3.0,62.0,90.0,5.0,6.5
+65,25,Femenino,Industrial,Sí,4.0,89.0,79.0,2.0,6.3
+66,26,Masculino,Informática,No,5.0,72.0,100.0,1.0,4.3
+67,19,Femenino,Informática,Sí,6.0,89.0,70.0,4.0,7.0
+68,26,Masculino,Ingeniería de Sistemas,No,4.0,87.0,58.0,0.0,6.0
+69,22,Masculino,Industrial,Sí,8.0,74.0,62.0,6.0,8.7
+70,20,Femenino,Industrial,Sí,1.0,87.0,66.0,2.0,7.8
+71,20,Masculino,Industrial,Sí,6.0,76.0,100.0,5.0,6.3
+72,23,Masculino,Civil,Sí,6.0,99.0,62.0,2.0,7.3
+73,28,Masculino,Ingeniería de Sistemas,Sí,2.0,75.0,84.0,0.0,5.1
+74,29,Femenino,Industrial,No,7.0,87.0,59.0,3.0,7.0
+75,20,Masculino,Industrial,Sí,4.0,89.0,71.0,3.0,6.6
+76,29,Masculino,Industrial,Sí,6.0,83.0,100.0,4.0,6.0
+77,23,Femenino,Electrónica,No,3.0,95.0,91.0,7.0,6.4
+78,18,Femenino,Industrial,No,6.0,85.0,89.0,3.0,5.0
+79,18,Masculino,Ingeniería de Sistemas,No,4.0,75.0,86.0,6.0,6.1
+80,18,Masculino,Informática,Sí,8.0,57.0,72.0,0.0,6.3
+81,27,Femenino,Informática,Sí,7.0,57.0,94.0,5.0,7.0
+82,25,Femenino,Civil,Sí,2.0,86.0,76.0,6.0,8.2
+83,19,Masculino,Civil,Sí,7.0,81.0,96.0,1.0,4.9
+84,27,Masculino,Informática,Sí,1.0,94.0,87.0,0.0,5.1
+85,28,Masculino,Industrial,Sí,6.0,93.0,83.0,1.0,4.9
+86,24,Masculino,,Sí,2.0,89.0,79.0,7.0,8.5
+87,29,Masculino,Industrial,No,2.0,61.0,90.0,4.0,6.6
+88,21,Femenino,Ingeniería de Sistemas,No,1.0,62.0,100.0,7.0,7.6
+89,29,Masculino,Electrónica,No,3.0,77.0,69.0,3.0,7.0
+90,19,Masculino,Electrónica,No,2.0,86.0,77.0,6.0,7.6
+91,23,Femenino,Informática,Sí,3.0,79.0,76.0,1.0,5.9
+92,27,Femenino,Civil,Sí,6.0,96.0,60.0,6.0,8.7
+93,23,Masculino,Civil,Sí,3.0,91.0,87.0,7.0,7.0
+94,22,Femenino,Ingeniería de Sistemas,No,4.0,98.0,98.0,4.0,5.4
+95,24,Masculino,Ingeniería de Sistemas,No,4.0,60.0,99.0,7.0,7.1
+96,21,Femenino,Ingeniería de Sistemas,No,6.0,89.0,94.0,3.0,5.0
+97,19,Femenino,Civil,Sí,4.0,96.0,84.0,2.0,5.3
+98,18,Femenino,Informática,Sí,8.0,73.0,82.0,1.0,4.9
+99,24,Femenino,Informática,Sí,2.0,91.0,80.0,4.0,6.5
+100,24,Masculino,Electrónica,No,7.0,63.0,66.0,4.0,8.1
+101,18,Masculino,Electrónica,Sí,2.0,55.0,88.0,7.0,8.2
+102,23,Femenino,Civil,No,8.0,79.0,94.0,4.0,5.4
+103,22,Femenino,Informática,Sí,1.0,70.0,93.0,7.0,7.5
+104,22,Femenino,Electrónica,Sí,6.0,83.0,57.0,3.0,7.6
+105,27,Masculino,Electrónica,Sí,8.0,91.0,76.0,0.0,5.6
+106,29,Femenino,Ingeniería de Sistemas,No,5.0,84.0,100.0,5.0,5.8
+107,21,Femenino,Civil,Sí,5.0,66.0,70.0,1.0,6.6
+108,27,Masculino,Informática,Sí,8.0,75.0,93.0,3.0,5.6
+109,18,Masculino,Electrónica,Sí,6.0,84.0,91.0,6.0,6.7
+110,27,Femenino,Ingeniería de Sistemas,Sí,2.0,59.0,90.0,1.0,6.1
+111,21,Femenino,Electrónica,Sí,7.0,64.0,73.0,1.0,6.6
+112,18,Femenino,Ingeniería de Sistemas,Sí,8.0,59.0,99.0,3.0,6.3
+113,25,Masculino,Electrónica,No,8.0,56.0,82.0,7.0,7.1
+114,28,Masculino,Ingeniería de Sistemas,Sí,4.0,78.0,66.0,1.0,6.9
+115,20,Masculino,Industrial,Sí,4.0,87.0,87.0,4.0,6.0
+116,20,Masculino,Electrónica,No,3.0,91.0,66.0,2.0,6.7
+117,18,Masculino,Electrónica,Sí,1.0,94.0,64.0,2.0,7.8
+118,29,Masculino,Industrial,Sí,5.0,67.0,66.0,6.0,9.0
+119,19,Femenino,Ingeniería de Sistemas,Sí,5.0,89.0,77.0,0.0,5.6
+120,27,Femenino,Electrónica,No,8.0,83.0,80.0,1.0,4.3
+121,27,Masculino,Ingeniería de Sistemas,Sí,6.0,88.0,95.0,6.0,6.7
+122,21,Masculino,Industrial,No,2.0,99.0,65.0,4.0,7.9
+123,25,Femenino,Informática,No,4.0,79.0,75.0,4.0,6.4
+124,26,Femenino,Civil,No,4.0,64.0,91.0,0.0,4.7
+125,25,Femenino,Informática,Sí,8.0,89.0,89.0,7.0,7.0
+126,21,Femenino,Ingeniería de Sistemas,No,2.0,93.0,86.0,7.0,6.9
+127,24,Masculino,Informática,No,6.0,86.0,91.0,3.0,5.0
+128,18,Femenino,Electrónica,No,7.0,67.0,77.0,0.0,5.7
+129,20,Masculino,Industrial,Sí,1.0,84.0,71.0,0.0,6.1
+130,21,Femenino,Informática,No,8.0,79.0,76.0,4.0,6.4
+131,28,Masculino,Civil,Sí,3.0,90.0,66.0,,8.0
+132,26,Femenino,Industrial,Sí,3.0,66.0,63.0,6.0,9.0
+133,29,Femenino,Civil,No,6.0,85.0,73.0,1.0,5.3
+134,22,Masculino,Electrónica,No,5.0,89.0,66.0,0.0,6.0
+135,21,Femenino,Electrónica,No,3.0,75.0,90.0,4.0,5.4
+136,24,Femenino,Civil,Sí,8.0,93.0,99.0,4.0,6.0
+137,27,Masculino,Industrial,No,2.0,93.0,68.0,6.0,8.6
+138,27,Masculino,Civil,No,5.0,89.0,77.0,4.0,6.4
+139,28,Femenino,Civil,Sí,3.0,72.0,66.0,0.0,6.6
+140,27,Femenino,Electrónica,Sí,2.0,98.0,71.0,4.0,7.5
+141,23,Femenino,Civil,No,7.0,100.0,67.0,7.0,8.4
+142,27,Femenino,Industrial,No,1.0,81.0,56.0,4.0,7.9
+143,22,Masculino,Civil,No,6.0,73.0,62.0,7.0,8.4
+144,18,Masculino,Informática,No,6.0,71.0,61.0,0.0,6.0
+145,21,Femenino,Informática,Sí,4.0,60.0,85.0,2.0,6.0
+146,29,Femenino,Ingeniería de Sistemas,Sí,6.0,93.0,81.0,1.0,4.9
+147,27,Masculino,Informática,Sí,3.0,93.0,57.0,4.0,8.0
+148,19,Masculino,Industrial,Sí,4.0,74.0,82.0,7.0,7.0
+149,26,Femenino,Industrial,Sí,7.0,55.0,57.0,4.0,8.7
+150,29,Femenino,Industrial,No,6.0,79.0,87.0,5.0,5.8
+16,27,Masculino,Informática,Sí,4.0,83.0,72.0,1.0,5.9
+71,20,Masculino,Industrial,Sí,6.0,76.0,100.0,5.0,6.3
